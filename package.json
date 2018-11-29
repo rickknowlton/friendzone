@@ -1,0 +1,28 @@
+  {
+    "name": "freindzone",
+    "version": "1.0.0",
+    "description": "friend{zone} is meant to simulate a simple dating app. The application is implemented using a Node.js and Express server on the back end and the Materialize CSS on the front end.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "heroku-prebuild": "npm install",
+        "heroku-postbuild": "npm run build"
+    },
+    "repository": {
+      "type": "git",
+      "repository": "https://github.com/rickknowlton/friendzone.git"
+    },
+    "keywords": ["Node", "Express", "Materialize", "jQuery"],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rickknowlton/friendzone/issues"
+    },
+    "homepage": "https://github.com/rickknowlton/friendzone#readme",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "path": "^0.12.7"
+    }
+  }

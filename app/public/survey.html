@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>friend{zone} | Survey</title>
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Oxygen|Patua+One|Varela+Round">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
+
+</head>
+
+<body>
+    <!--Nav-->
+    <nav>
+        <div class="nav-wrapper blue lighten-1">
+            <a href="/" class="brand-logo">friend{zone}</a>
+        </div>
+    </nav>
+
+    <!--Survey-->
+    <div class="grey lighten-4">
+        <div class="container grey lighten-5 survey">
+            <div class="row">
+                <h4 class="survey">Instructions</h4>
+                <div>
+                    <p>Questions are based on a scale of 1 to 5. 1 for strongly disagree, and 5 for strongly agree.
+                    </p>
+                </div>
+            </div>
+            <div class="divider"></div>
+
+            <div class="row">
+                <div>
+                    <h4 class="survey">About You
+                    </h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="name information">
+                    <p>Name (Required)</p>
+                    <input type="text" id="name" placeholder="Your Name" class=" form-control col s12">
+                </div>
+            </div>
+            <div class="row">
+                <div class="matchPhoto information">
+                    <p>Link to Photo (Required)</p>
+                    <input type="text" id="photo" class="form-control col s12" placeholder="https://www.yourpic.com/somephoto.jpeg">
+                </div>
+            </div>
+            <div class="row">
+                <div>
+                    <h4 class="survey">Survey Questions
+                    </h4>
+                </div>
+                <div class="row">
+                    <p class="first">1. You drink coffee... a lot of it.</p>
+                </div>
+                <div class="input-field align-center col s12">
+                    <div class="row">
+                        <select class="selection" id="q0">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>2. Beer is life?</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q1">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>3. There should be a statute of limitations on wishing someone a happy belated birthday.</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q2">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>4. You purposely avoid poppy seed muffins, fearing you may be randomly drug tested.</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q3">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>5. You will always think of the perfect comeback days later.</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q4">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>6. In an ice cream sundae, you always keep the fudge on the bottom. It makes it far easier to
+                        control your fudge distribution.</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q5">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>7. You always use a turn signal.</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q6">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>8. The Office is overrated?</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q7">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>9. You're a heat-seaking missle when it comes to seeking out spicy food.</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q8">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>10. You don't understand why JNCO Jeans ever came back!</p>
+                </div>
+                <div class="input-field col s12">
+                    <div class="row">
+                        <select class="selection" id="q9">
+                            <option value="0" selected>Choose Below</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <p class="center-align">
+                <a class="waves-effect waves-light blue darken-1 btn survey" id="submitBtn"> Find Your Friend!</a>
+            </p>
+
+            <!--Modals-->
+            <div id="matchModal" class="modal">
+                <div class="modal-container">
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="modal-content center-align">
+                                <h4>It's a Match!</h4>
+                                <h5 id="userMatch"></h5>
+                                <img id="userMatchImage" width="70%" src="">
+                                <p class="modal-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green blue darken-1 btn-flat" id="closeMatchModal">Close</a>
+                    </div>
+                </div>
+
+            </div>
+            <div id="errorModal" class="modal">
+                <div class="modal-container">
+                    <div class="row">
+                        <div class="col s12">
+                            <h4 class="modal-alert">Oops! Something went wrong!</h4>
+                            <p>Please make sure you fill out every field!</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="#!" class="modal-close waves-effect waves-green blue darken-1 btn-flat" id="closeErrorModal">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="page-footer blue lighten-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="grey-text text-lighten-4">about <span class="brand white-text">friend{zone}</span></h5>
+                        <p class="grey-text text-lighten-4"><span class="brand white-text">friend{zone}</span> is built
+                            with Materialize, Javascript, jQuery and supported by Node and Express.</p>
+                        <a class="grey-text text-lighten-3" href="#!"><i class="fab fa-github"></i> Check out the Repo on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <a class="grey-text text-lighten-4 right" href="https://rickknowlton.github.io/">© 2018 | Rick Knowlton</a>
+                </div>
+            </div>
+        </footer>
+</body>
+
+<!-- Logic -->
+<script type="text/javascript">
+    $(document).ready(function () {
+        console.log("ready!");
+        $('.modal').modal();
+        $('select').formSelect();
+
+        var answersArray = [];
+        var invalid = false;
+
+        $("#name").val("");
+        $("#photo").val("");
+        $("#matchModal").hide();
+        $(".selection").val("0");
+        $("#submitBtn").on("click", function (event) {
+            event.preventDefault();
+            for (let i = 1; i <= 10; i++) {
+                answersArray.push($("#q" + i).val());
+                if ($("#q" + i).val() == 0) {
+                    invalid = true;
+                    console.log(invalid);
+                }
+            };
+
+            var newProfile = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val(),
+                scores: answersArray
+            };
+            console.log(newProfile);
+            if (invalid) {
+                $("#errorModal").show();
+            } else {
+                $.post("/api/friends", newProfile,
+                    function (data) {
+                        $('#userMatch').html(data.newFriendName);
+                        $("#userMatchImage").attr("src", data.newFriendImage);
+                        $("#matchModal").show();
+                        invalid = false;
+                    });
+            }
+        });
+
+        $(document.body).on("click", "#closeMatchModal", function () {
+            $("#name").val("");
+            $("#photo").val("");
+            $("#matchModal").hide();
+            $(".selection").val("0");
+            answersArray = [];
+            invalid = false;
+        });
+        $(document.body).on("click", "#closeErrorModal", function () {
+            $("#errorModal").hide();
+            answersArray = [];
+            invalid = false;
+        });
+    });
+</script>
+
+</html>

@@ -1,0 +1,104 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+}
+
+.container {
+  padding: 35px;
+}
+
+.modal-container {
+  padding: 23px;
+}
+
+p,
+h3,
+h4,
+h5 {
+  text-align: left;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.about {
+  margin-left: 10px;
+}
+
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.parallax-container {
+  position: relative;
+}
+
+.btn-large {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.5em;
+}
+
+.parallax-container .btn-large {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.brand-logo {
+  font-family: 'Varela Round', sans-serif;
+  margin-left: 5px;
+}
+
+.brand {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+
+#nav-mobile {
+  font-family: 'Varela Round', sans-serif;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .btn-large {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 3vw;
+  }
+}
+
+.modal {
+  z-index: 100;
+  top: 10%;
+}
+
+input[type=text]:not(.browser-default) {
+  border-bottom: 1px solid blue;
+}
+
+input[type=text]::placeholder {
+  color: rgba(0, 0, 0, .3);
+}
+
+input[type="submit"] {
+  background-color: blue;
+}
+
+.main-subtext {
+  line-height: 1.4em;
+  color: var(--other-txt);
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+
+.home-button {
+  margin: 50px auto;
+  text-align: center;
+  display: block;
+  width: 200px;
+}
+
+ul.dropdown-content.select-dropdown li span {
+  color: blue;
+}

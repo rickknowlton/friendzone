@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>friend{zone} | Home</title>
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Oxygen|Patua+One|Varela+Round">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png" />
+
+
+</head>
+
+<body>
+
+    <!--Nav-->
+    <nav>
+        <div class="nav-wrapper blue lighten-1">
+            <a href="#" class="brand-logo">friend{zone}</a>
+        </div>
+    </nav>
+
+    <!--Parallax-->
+    <div class="parallax-container">
+        <div class="parallax"><img src="assets/images/welcome.jpg"></div>
+        <a class="waves-effect waves-light blue darken-1 z-depth-5 hoverable btn-large" href="/survey" role="button">Find a Friend Now!</a>
+    </div>
+
+    <!--About Section-->
+    <div class="grey lighten-4">
+        <div class="container grey lighten-5">
+            <div class="section text-center">
+                <h2 class="center-align">meet your match with <strong>friend{zone}</strong></h2>
+                <div class="divider"></div>
+                <div class="about">
+                    <h5>We all get a little lonely sometimes, but we're here to help! Here at <b>friend{zone}</b> we've
+                        developed a proprietary method to find someone just like you!</h5>
+                    <br>
+                    <h5>Getting started is easy! All you need to do is fill out a brief survey so that we can get to
+                        know you a bit, then we'll find your match! Get started by clicking the below!</h5>
+                </div>
+                <p class="center-align">
+                    <a class="btn btn-primary blue darken-1 btn-lg" href="/survey" role="button">FIND A FRIEND!</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="page-footer blue lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="grey-text text-lighten-4">about <span class="brand white-text">friend{zone}</span></h5>
+                    <p class="grey-text text-lighten-4"><span class="brand white-text">friend{zone}</span> is built
+                        with Materialize, Javascript, jQuery and supported by Node and Express.</p>
+                    <a class="grey-text text-lighten-3" href="#!"><i class="fab fa-github"></i> Check out the Repo on GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <a class="grey-text text-lighten-4 right" href="https://rickknowlton.github.io/">© 2018 | Rick Knowlton</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<!--Parallax Script-->
+<script type="text/javascript">
+    $(document).ready(function () {
+            $('.parallax').parallax();
+        });
+</script>
+
+</html>
