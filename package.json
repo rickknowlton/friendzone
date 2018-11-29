@@ -1,7 +1,7 @@
 {
   "name": "freindzone",
   "version": "1.0.0",
-  "description": "friend{zone} is meant to simulate a simple dating app. The application is implemented using a Node.js and Express server on the back end and the Materialize CSS on the front end.",
+  "description": "friend{zone} is meant to simulate a simple dating app. The application is built on Node.js and Express and styled with Materialize CSS.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
